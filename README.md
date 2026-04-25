@@ -101,7 +101,7 @@ data/
 import pandas as pd
 
 df1 = pd.read_csv('data/raw/moscow_housing_price_dataset.csv', nrows=3)
-df2 = pd.read_csv('data/raw/russia_real_estate_2021.csv', nrows=3)
+df2 = pd.read_csv('data/raw/russia_real_estate_2021.csv', nrows=3, sep=";")
 
 print(df1.columns.tolist())
 print(df2.columns.tolist())
